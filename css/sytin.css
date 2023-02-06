@@ -698,7 +698,7 @@ main {
 }
 
 .lessons__item {
-  padding: 32px 20px;
+  padding: 20px 20px;
   background-color: #ECF4E6;
   font-weight: 400;
   font-size: 18px;
@@ -904,5 +904,9 @@ main {
 
   .feedback {
     margin-bottom: 52px;
+  }
+
+  .footer {
+    margin: 24px 20px 61px;
   }
 }
