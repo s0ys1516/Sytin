@@ -614,7 +614,7 @@ main {
 
 .book__title {
 	margin: 90px 0 15px 0;
-	font-weight: 500;
+  font-weight: 600;
 	font-size: 32px;
 	line-height: 40px;
 }
@@ -669,3 +669,240 @@ main {
 	color: black;
 }
 
+.lessons {
+  margin-bottom: 162px;
+}
+
+.lessons__wrapper {
+  margin: 0 auto;
+}
+
+.lessons__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.lessons__description {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.lessons__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 0;
+  gap: 32px;
+}
+
+.lessons__item {
+  padding: 32px 20px;
+  background-color: #ECF4E6;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  list-style: none;
+  max-width: 264px;
+  width: 100%;
+  text-align: center;
+}
+
+.feedback {
+  margin: 78px 0 97px;
+}
+.feedback__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+}
+.feedback_comment {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.comment {
+  padding: 30px 33px 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #F1F1F1;
+}
+.comment__img {
+  object-fit: cover;
+  max-width: 304px;
+  width: 100%;
+  align-self: start;
+}
+.comment__info {
+  max-width: 925px;
+  width: 100%;
+}
+.comment__name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment__name--real {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.comment__name--nickname {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ADADAD;
+}
+
+.comment__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 1439px) {
+  body {
+    max-width: 768px;
+  }
+
+  .header {
+    margin: 20px 31px;
+
+  }
+
+  .header__contacts {
+    gap: 6px;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  main {
+    padding: 50px 20px;
+  }
+
+  .introduce__title {
+    margin-top: none;
+  }
+
+  .introduce__descriptions {
+    max-width: 727px;
+  }
+
+  .introduce__info,
+  .introduce__termins {
+    margin: 10px 0;
+  }
+
+  .cooperation {
+    margin: 70px 0 114px;
+  }
+
+  .company__name {
+    max-width: 285px;
+  }
+
+  .company--fifth {
+    max-width: 282px;
+    }
+
+  .cooperation__company {
+    margin-top: 53px;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .form__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .form__suggestion {
+    max-width: 728px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form__form {
+    max-width: 728px;
+    width: 100%;
+  }
+
+  .form__field,
+  .form__btn {
+    max-width: none;
+  }
+
+  .interesting {
+    margin: 107px auto 38px;
+  }
+
+  .lessons__list {
+    gap: 20px;
+  }
+
+  .lessons__item {
+    max-width: 320px;
+    padding: 22px 17px;
+  }
+
+  .interesting__wrapper {
+    margin: 0;
+  }
+
+  .interesting__video {
+    flex-direction: column;
+  }
+
+  .video,
+  .video__logo {
+    max-width: 728px;
+  }
+
+  .video__name {
+    margin: 10px 0 40px;
+    text-align: left;
+  }
+
+  .lessons {
+    margin-bottom: 60px;
+  }
+
+  .book__img {
+    object-fit: cover;
+    margin-right: 21px;
+    max-width: 244px;
+  }
+
+  .book__title {
+    margin: 12px 0 12px 0;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .comment__img {
+    max-width: 194px;
+  }
+
+  .comment__name {
+    align-items: center;
+  }
+
+  .comment__name--real {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .footer__contacts {
+    gap: 7px;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  .feedback {
+    margin-bottom: 52px;
+  }
+}
