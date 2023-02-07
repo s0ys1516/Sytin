@@ -1,28 +1,28 @@
 @font-face {
-    font-family: "Raleway";
-    src: url(../fonts/Raleway-Light.woff2);
-    src: url(../fonts/Raleway-Light.woff) format('woff');
-    font-weight: 400;
-    font-style: normal;
-	font-display: swap;
+  font-family: "Raleway";
+  src: url(../fonts/Monorale-Light.woff2);
+  src: url(../fonts/Monorale-Light.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: "Raleway";
-    src: url(../fonts/Raleway-Regular.woff2);
-    src: url(../fonts/Raleway-Regular.woff) format('woff');
-    font-weight: 400;
-    font-style: normal;
-	font-display: swap;
+  font-family: "Raleway";
+  src: url(../fonts/Monorale-Regular.woff2);
+  src: url(../fonts/Monorale-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: "Raleway";
-    src: url(../fonts/Raleway-Medium.woff2);
-    src: url(../fonts/Raleway-Medium.woff) format('woff');
-    font-weight: 500;
-    font-style: normal;
-	font-display: swap;
+  font-family: "Raleway";
+  src: url(../fonts/Monorale-Medium.woff2);
+  src: url(../fonts/Monorale-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+font-display: swap;
 }
 
 @font-face {
@@ -766,7 +766,16 @@ main {
 
 @media (max-width: 1439px) {
   body {
-    max-width: 768px;
+    max-width: 950px;
+  }
+
+  .introduce,
+  .form__wrapper,
+  .interesting,
+  .lessons__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .header {
@@ -781,7 +790,7 @@ main {
   }
 
   main {
-    padding: 50px 20px;
+    padding: 0 20px 30px;
   }
 
   .introduce {
@@ -803,7 +812,7 @@ main {
   }
 
   .cooperation {
-    margin: 70px 0 114px;
+    margin: 20px 0 25px;
   }
 
   .company__name {
@@ -842,11 +851,12 @@ main {
   }
 
   .interesting {
-    margin: 107px auto 38px;
+    margin: 30px auto 18px;
   }
 
   .lessons__list {
     gap: 20px;
+    max-width: 728px;
   }
 
   .lessons__item {
@@ -908,7 +918,7 @@ main {
   }
 
   .feedback {
-    margin-bottom: 52px;
+    margin-bottom: 22px;
   }
 
   .footer {
@@ -917,6 +927,28 @@ main {
 
   .interesting__title {
     text-align: left;
+  }
+}
+
+@media (max-width: 1000px) {
+  main {
+      padding: 50px 20px;
+  }
+  
+  .cooperation {
+    margin: 70px 0 114px;
+  }
+
+  interesting {
+    margin: 107px auto 38px;
+  }
+
+  .feedback {
+    margin-bottom: 52px;
+  }
+
+  body {
+    max-width: 768px;
   }
 }
 
