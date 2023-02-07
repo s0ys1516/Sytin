@@ -578,18 +578,8 @@ input::-moz-placeholder {
     padding: 31px 35px 40px;
   }
 
-  .main__title {
-    flex-direction: column-reverse;
-    gap: 27px;
-    margin-bottom: 0;
-  }
-
   .blog__text-wrapper--img {
     max-width: none;
-  }
-
-  .title__postinfo {
-    align-self: flex-end;
   }
 
   .header__title {
@@ -647,6 +637,16 @@ input::-moz-placeholder {
     max-width: 728px;
     margin: 0 auto;
     text-align: left;
+  }
+
+  .title__postinfo {
+    align-self: flex-end;
+  }
+
+  .main__title {
+    flex-direction: column-reverse;
+    gap: 27px;
+    margin-bottom: 0;
   }
 }
 

@@ -803,7 +803,7 @@ main {
   }
 
   .introduce__descriptions {
-    max-width: 727px;
+    max-width: 1000px;
   }
 
   .introduce__info,
@@ -941,6 +941,10 @@ main {
 
   interesting {
     margin: 107px auto 38px;
+  }
+
+  .introduce__descriptions {
+    max-width: 727px;
   }
 
   .feedback {
