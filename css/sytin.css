@@ -1155,3 +1155,25 @@ main {
 .btn--green:disabled {
   background-color: #E2E2E2;
 }
+
+.header__mail:hover,
+.header__phone:hover,
+.footer__mail:hover,
+.footer__phone:hover {
+  color: #ACE87F;
+}
+
+.header__mail:active,
+.header__phone:active,
+.footer__mail:active,
+.footer__phone:active {
+  color: #000000;
+}
+
+.header__mail:disabled,
+.header__phone:disabled,
+.footer__mail:disabled,
+.footer__phone:disabled {
+  color: #7e7878;
+}
+
