@@ -471,6 +471,8 @@ main {
 	border-radius: 5px;
 	color: white;
 	border: none;
+  text-decoration: none;
+  text-align: center;
 }
 
 .blog--move {
@@ -652,6 +654,7 @@ input::-moz-placeholder {
   .blog {
     font-size: 16px;
     line-height: 20px;
+    gap: 4px;
   }
 
   .blog__img {
@@ -674,6 +677,18 @@ input::-moz-placeholder {
 
   .form__comment {
     padding: 20px 0 233px 20px;
+  }
+
+  .blog--move {
+    margin-bottom: 20px;
+  }
+
+  .header__title {
+    margin-left: 20px;
+  }
+
+  .main__title {
+    gap: 10px;
   }
 
   .comments {

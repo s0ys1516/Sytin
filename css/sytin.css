@@ -522,7 +522,7 @@ main {
 	margin: 160px auto;
 }
 .interesting__title {
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 32px;
 	line-height: 38px;
 	text-align: center;
@@ -557,7 +557,7 @@ main {
 }
 
 .form__title {
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 36px;
 	line-height: 42px;
 }
@@ -784,8 +784,13 @@ main {
     padding: 50px 20px;
   }
 
+  .introduce {
+    margin-top: 0;
+  }
+
   .introduce__title {
-    margin-top: none;
+    margin-top: 0;
+
   }
 
   .introduce__descriptions {
@@ -908,5 +913,215 @@ main {
 
   .footer {
     margin: 24px 20px 61px;
+  }
+
+  .interesting__title {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    max-width: 320px;
+  }
+
+  main {
+    padding: 35px 10px;
+  }
+
+  .header,
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin: 23px 9px 0;
+  }
+
+  .header__company {
+    font-size: 12px;
+  }
+
+  .footer {
+    margin: 23px 9px 43px;
+  }
+
+  .introduce__title {
+    font-size: 32px;
+    line-height: 38px;    
+  }
+
+  .introduce__info {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .introduce__termins {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .introduce__video {
+    max-width: 300px;
+  }
+
+  .cooperation {
+    margin: 42px 0 75px;
+  }
+
+  .cooperation__company {
+    gap: 0;
+    margin-top: 22px;
+  }
+
+  .company {
+    max-width: none;
+  }
+
+  .company__name {
+    margin: 20px 0 29px;
+  }
+
+  .company--first > p {
+    max-width: 201px;
+    margin-top: 7px;
+  }
+
+  .company--fourth > p {
+    margin-top: 7px;
+  }
+
+  .company--fifth > p {
+    margin-top: 10px;
+    max-width: 280px;
+  }
+
+  .form__title {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: left;
+  }
+
+  .form__statement {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+  }
+
+  .form__field, .form__btn {
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .form__field {
+    max-width: 278px;
+    padding: 18px 0 18px 20px;
+  }
+
+  .interesting {
+    margin: 52px 0 33px;
+  }
+
+  .interesting__title {
+    margin: 0 0 23px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .interesting__video {
+    align-items: center;
+  }
+
+  .video__name {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 5px;
+  }
+
+  .video__logo {
+    max-width: 300px;
+  }
+
+  .book__wrapper {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .lessons__title {
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .lessons__description {
+    margin: 10px 0 30px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .lessons__item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .book__title {
+    margin-top: 0;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .book__description {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .book__img {
+    max-width: 214px;
+    margin: 20px 0 0;
+  }
+  
+  .feedback {
+    margin: 94px 0 48px;
+  }
+
+  .feedback__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .comment__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .comment__name {
+    align-items: baseline;
+  }
+
+  .comment__name--real {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .comment__name--nickname {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .footer__company {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .footer__contacts,
+  .header__contacts {
+    gap: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 24px;
   }
 }
