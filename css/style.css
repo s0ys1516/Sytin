@@ -570,7 +570,7 @@ input::-moz-placeholder {
   }
 
   .main__wrapper {
-    max-width: 658px;
+    max-width: 900px;
     padding: 31px 35px 40px;
   }
 
@@ -578,6 +578,10 @@ input::-moz-placeholder {
     flex-direction: column-reverse;
     gap: 27px;
     margin-bottom: 0;
+  }
+
+  .blog__text-wrapper--img {
+    max-width: none;
   }
 
   .title__postinfo {
@@ -622,6 +626,17 @@ input::-moz-placeholder {
 
   .form__field {
     max-width: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .main__wrapper {
+      max-width: 658px;
+      padding: 31px 35px 40px;
+    }
+
+  .blog__text-wrapper--img {
+    max-width: 640px;
   }
 }
 
