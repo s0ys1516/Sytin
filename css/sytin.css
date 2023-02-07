@@ -1125,3 +1125,33 @@ main {
     line-height: 24px;
   }
 }
+
+.lessons__item:hover {
+  background-color: #D0EEB9;
+}
+
+.lessons__item:active {
+  background-color: #ACE87F;
+}
+
+.lessons__item:disabled {
+  background-color: #E9E9E9;
+}
+
+.btn--green {
+  background-color: #D0EEB9;
+}
+
+.btn--green:hover {
+  background-color: #ECF4E6;
+  box-shadow: 0px 0px 10px #D0EEB9;
+}
+
+.btn--green:active {
+  background-color: #ACE87F;
+  box-shadow: none;
+}
+
+.btn--green:disabled {
+  background-color: #E2E2E2;
+}

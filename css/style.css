@@ -695,3 +695,32 @@ input::-moz-placeholder {
     display: none;
   }
 }
+
+.blog__btn:hover {
+  background-color: #C62828;
+  box-shadow: 0px 0px 28px rgba(198, 39, 39, 0.43);
+}
+
+.blog__btn:active {
+  background-color: #AC1B1B;
+  box-shadow: none;
+}
+
+.blog__btn:disabled {
+  background-color: #CECECE;
+}
+
+.btn--grey:hover {
+  background-color: #717171;
+}
+
+.btn--grey:active {
+  background-color: #ACE87F;
+}
+
+.btn--grey:disabled {
+  background-color: #D5D5D5;
+}
+
+
+
