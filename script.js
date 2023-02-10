@@ -3,7 +3,7 @@ const app = express();
 const nodemailer = require("nodemailer");
 var smtpTransport = require("nodemailer-smtp-transport");
 
-const PORT = process.env.PORT || 4002;
+const PORT = process.env.PORT || 4000;
 
 app.use(express.static(__dirname + "Sytin"));
 
