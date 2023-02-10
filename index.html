@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<link rel="stylesheet" href="css/style.css">
@@ -16,14 +16,37 @@
 	<meta name="msapplication-TileColor" content="#ffc40d">
 	<meta name="msapplication-config" content="favicon/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function (m, e, t, r, i, k, a) {
+			m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+			m[i].l = 1 * new Date();
+			for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+			k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+		})
+			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+		ym(92072688, "init", {
+			clickmap: true,
+			trackLinks: true,
+			accurateTrackBounce: true,
+			webvisor: true,
+			ecommerce: "dataLayer"
+		});
+	</script>
+	<noscript>
+		<div><img src="https://mc.yandex.ru/watch/92072688" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
 	<header class="header">
 		<H1 class="header__title">Блог Светланы Самойловой </H1>
 	</header>
 	<main class="main">
-		<section class="main__wrapper">
+		<div class="main__wrapper">
 			<section class="main__title">
 				<h2 class="title__title">Как вылечить миому матки и кисту яичника?</h2>
 				<div class="title__postinfo">
@@ -31,7 +54,7 @@
 					<p class="title__date">04.06.2021</p>
 				</div>
 			</section>
-			<section class="main__blog">
+			<div class="main__blog">
 				<div class="blog">
 					<div class="blog__text-wrapper">
 						<p class="blog__text">
@@ -281,19 +304,50 @@
 						<a href="sytin.html" class="blog__btn">Посмотреть видео о методе Г.Н. Сытина</a>
 					</div>
 				</div>
-			</section>
-			<section class="form">
-				<form action="" class="form__wrapper">
+			</div>
+			<div class="form">
+				<form action="#" class="form__wrapper">
 					<div class="form__fields">
 						<input class="form__name form__field" type="text" name="name" placeholder="Имя">
 						<input class="form__mail form__field" type="text" name="mail" placeholder="Email">
 						<input class="form__comment form__field" type="text" name="comments" placeholder="Комментарии">
 					</div>
-					<button class="form__btn btn--grey">Отправить</button>
+					<button class="form__btn btn--grey"
+						onsubmit="ym(92072688,'reachGoal','comment'); gtag('event', 'eventrandomname', { 'event_category': 'form', 'event_action': 'comment', }); return true;">Отправить</button>
 				</form>
-			</section>
-			<section class="comments">
+			</div>
+			<div class="comments">
 				<div class="comments__pages">
+					<div class="comments_com">
+						<div class="com">
+							<div class="com__user">
+								<div class="com__userinfo">
+									<p class="com__username">Анастасия</p>
+									<p class="com__userdate">04.06.21</p>
+								</div>
+								<div class="com__usertext">Удивительно..Света, подскажите, получается клайра помогла
+									избавиться от кисты яичника? Я пью ярину второй месяц, кожа стала сухая и состояние
+									моральное давящее, как депрессия какая-то. У меня эндометриоидная киста в левом
+									яичнике, 5 на 6 см, предлагают удалять. Не рожала еще, поэтому с моим гинекологом
+									пытаемся гормонами ее убрать, но пока безрезультатно</div>
+							</div>
+							<div class="com__admin">
+								<p class="com__adminanswer">Ответ</p>
+								<div class="com__admininfo">
+									<div class="com__adminwrapper">
+										<p class="com__adminname">Анастасия</p>
+										<p class="com__admintag">автор</p>
+									</div>
+									<p class="com__admindate">04.06.21</p>
+								</div>
+								<div class="com__admintext">Удивительно..Света, подскажите, получается клайра помогла
+									избавиться от кисты яичника? Я пью ярину второй месяц, кожа стала сухая и состояние
+									моральное давящее, как депрессия какая-то. У меня эндометриоидная киста в левом
+									яичнике, 5 на 6 см, предлагают удалять. Не рожала еще, поэтому с моим гинекологом
+									пытаемся гормонами ее убрать, но пока безрезультатно</div>
+							</div>
+						</div>
+					</div>
 					<div class="pages">
 						<button class="pages__btn--prev">Предыдущая страница</button>
 						<ul class="pages__list">
@@ -305,7 +359,16 @@
 						<button class="pages__btn--next">Следующая страница</button>
 					</div>
 				</div>
-			</section>
+			</div>
+			<!-- <div class="modal-comment">
+				<div class="modal-comment__wrapper">
+					<p class="modal-comment__text">Ваш комментарий будет опубликован после успешного прохождения
+						модерации
+					</p>
+					<button class="modal-comment__btn">Хорошо!</button>
+				</div>
+			</div> -->
+		</div>
 	</main>
 </body>
 

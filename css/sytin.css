@@ -565,7 +565,7 @@ main {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 23px;
-	text-align: center;
+	text-align: left;
 }
 .form__form {
 	max-width: 416px;
@@ -742,6 +742,8 @@ main {
 .comment__name {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px 0;
 }
 
 .comment__name--real {
@@ -756,6 +758,7 @@ main {
   font-size: 16px;
   line-height: 24px;
   color: #ADADAD;
+  margin: 0;
 }
 
 .comment__text {
@@ -767,6 +770,10 @@ main {
 @media (max-width: 1439px) {
   body {
     max-width: 950px;
+  }
+
+  .form__statement {
+    text-align: center;
   }
 
   .introduce,
