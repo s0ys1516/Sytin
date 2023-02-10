@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s0ys1516/Sytin.git"
+  },
+  "author": "s0ys1516",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s0ys1516/Sytin/issues"
+  },
+  "homepage": "https://github.com/s0ys1516/Sytin#readme"
+}
